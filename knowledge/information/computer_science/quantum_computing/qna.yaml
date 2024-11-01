@@ -28,7 +28,7 @@ seed_examples:
       - question: What are the different ways that a Qisket pattern can be executed?
         answer: |
           A Qisket pattern can be executed locally, through cloud services, or deployed with Qiskit Serverless.
-  - context: |    
+  - context: |
       Map problem to quantum circuits and operators
       This step describes how a user starts with a classical problem and figures out how to map it to
       a quantum computer. For example, in applications such as chemistry and quantum simulation,
@@ -41,7 +41,7 @@ seed_examples:
       Hadamard tests, you might prepare to use Sampler, whereas specifying observables would use
       the Estimator and could provide many error mitigation options.
       The output of this step is normally a collection of circuits or quantum operators that can be optimized
-      for hardware in the next step.     
+      for hardware in the next step.
       Optimize for target hardware
       In this step you take the abstract circuits (or operators) produced from the map step and perform a series of
       optimizations on them. This can include mapping the route and layout of the circuit to physical qubit hardware,
@@ -77,7 +77,7 @@ seed_examples:
       Depending on whether you are using the Sampler or Estimator primitive,
       the outcome of this step will be different. If using the Sampler, the output will be per-shot measurements
       in the form of bitstrings. If using the Estimator, the output will be expectation values of observables
-      corresponding to physical quantities or cost functions.  
+      corresponding to physical quantities or cost functions.
       Post-process results
       This final step involves stitching the outputs from the prior step back together to obtain the desired result.
       This can involve a range of classical data-processing steps such as visualizing results, readout error mitigation
@@ -104,21 +104,21 @@ seed_examples:
           or post-selection on inherent properties of the problem, such as total spin, parity, or particle conservation
           by removing unphysical observables.
   - context: |
-      The Evolution of IBM's Quantum Systems: Towards Error-Corrected Systems      
+      The Evolution of IBM's Quantum Systems: Towards Error-Corrected Systems
       Looking ahead, IBM's roadmap focuses on enhancing error correction one of the essential aspects of making
       quantum systems more reliable. Error correction helps extend and improve quantum coherence and computational reach,
       enabling the system to process more complex algorithms. IBM's development roadmap highlights that by 2025,
       the company plans to integrate error mitigation techniques within Qiskit Primitives, forming a robust foundation
-      for developers to build quantum workflows.      
+      for developers to build quantum workflows.
       The primitives are computational building blocks for larger applications with input units primitive unified blocs
       that need quantum resources to efficiently produce outputs. This update will allow algorithms to function with
-      reduced noise, improving circuit quality and overall computation speed.      
+      reduced noise, improving circuit quality and overall computation speed.
       In the same timeframe, according to the roadmap, IBM aims to demonstrate a 1,000+ qubit system called "Flamingo".
       This system is designed as a modular assembly of processors, each containing multiple chips. The goal is to scale
       quantum systems significantly while maintaining performance and error rates. Such advancements are steps toward
       IBM's vision of a utility-scale quantum supercomputer, capable of processing large-scale problems across
-      multiple domains such as security, chemistry, and optimization.      
-      Pushing Boundaries With Next-Gen Systems And Devices      
+      multiple domains such as security, chemistry, and optimization.
+      Pushing Boundaries With Next-Gen Systems And Devices
       Beyond 2025, IBM plans to launch the Starling system, a modular, error-corrected quantum supercomputer capable of
       running 100 million gates. This system represents IBM's ongoing efforts to refine error correction codes and
       incorporate dedicated classical hardware, ensuring computational efficiency and speed. The integration of
@@ -147,28 +147,28 @@ seed_examples:
       ensuring efficient resource utilization. In 2025, IBM plans to introduce serverless tools,
       allowing users to focus on developing algorithms without managing the underlying infrastructure.
       Such tools are crucial for scaling quantum computing into everyday use, making the technology
-      accessible for a broader range of applications.      
+      accessible for a broader range of applications.
       The automation features in IBM's middleware include intelligent orchestration, which analyzes workflows
       to identify the optimal allocation of QPUs, communication channels, and classical resources.
       These advancements aim to extend the quantum system's reach, providing seamless
-      operations even as the technology scales up.     
+      operations even as the technology scales up.
       Enhancing the Developer Experience With Qiskit And Code Assistants As some of the pieces have already
       been mentioned, Qiskit is obviously an important part of the quantum roadmap.
       IBM released Qiskit in 2017 to serve as a first-of-its-kind research tool.
       According to IBM documentation, It offered an open-source, Python-based software development kit,
       library and framework to program quantum computers.
       Seven years, 100 releases, 550 open-source contributions, 550,000 users, and 3 trillion quantum circuits later,
-      Qiskit 1.0 arrives as a mature Python package for running large-scale quantum experiments. 
+      Qiskit 1.0 arrives as a mature Python package for running large-scale quantum experiments.
       To foster a growing developer community and accelerate application development,
       BM has integrated the Qiskit platform with Generative AI tools and AI-powered tools like Code Assistant.
       (Here's a recent breakdown on Qiskit Code Assistant on The Quantum Insider.)
       These tools are designed to streamline quantum programming, helping developers write code more efficiently
       and optimize circuits for specific hardware. As quantum systems become more complex, having accessible
-      programming tools will be essential for expanding quantum computing's use cases beyond specialized research labs.    
+      programming tools will be essential for expanding quantum computing's use cases beyond specialized research labs.
       IBM's approach also includes the development of higher-level APIs and domain-specific libraries within Qiskit,
       aimed at abstracting the complexities of quantum circuits. By transitioning to a function-based paradigm,
       IBM seeks to make quantum technology more usable, ultimately opening up opportunities for industries
-      ranging from pharmaceuticals to logistics.      
+      ranging from pharmaceuticals to logistics.
       Towards 2033 and Beyond: IBM's Quantum Ambitions IBM's long-term quantum ambitions extend well into the next decade.
       The company aims to build systems capable of handling thousands of qubits, offering users a robust platform for
       tackling vast computational challenges. By leveraging scalable architectures and efficient error correction
