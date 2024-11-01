@@ -19,15 +19,15 @@ seed_examples:
       
     questions_and_answers:
       - question: What is a Qiskit pattern?
-        answer: >-
+        answer: |
           A Qiskit pattern is a general framework for breaking down domain-specific problems and contextualizing
-      required capabilities in stages
+          required capabilities in stages
       - question: What are the steps in a Qiskit pattern?
-        answer: >-
+        answer: |
           The steps of a Qiskit pattern are: 1. Map problem to quantum circuits and operators, 
           2. Optimize for target hardware, 3. Execute on target hardware, and 4. Post-process results
       - question: What are the different ways that a Qisket pattern can be executed?
-        answer: >-
+        answer: |
           A Qisket pattern can be executed locally, through cloud services, or deployed with Qiskit Serverless.
   - context: |        
       Map problem to quantum circuits and operators
@@ -57,15 +57,15 @@ seed_examples:
       
     questions_and_answers: 
       - question: What happens in the optimize for target hardware step?
-        answer: >-
+        answer: |
           Optimizations are performed on the abstract circuits produced by the map step.    
       - question: For chemistry and quantum simulation, how is the problem typically mapped to quantum circuits
           and operators?
-        answer: >-
+        answer: |
           The mapping generally involves constructing a quantum circuit representing the Hamiltonian
           you are attempting to solve.
       - question: In the optimize for target hardware step, what are abstract circuits transpiled into?
-        answer: >-
+        answer: |
           Instruction Set Architecture (ISA) circuits
           
   - context: |           
@@ -94,16 +94,16 @@ seed_examples:
       of applications and techniques for easy use by quantum computational scientists.    
     questions_and_answers:
       - question: what is the Qisket pattern step where circuits are run on hardware?
-        answer: >-
+        answer: |
           Execute on target hardware
       - question: what is the Qisket pattern step where outputs are stitched back together to obtain the desired result?
-        answer: >-
+        answer: |
           Post-process results
       - question: What is the final step of qiskit patten?
-        answer: >-
+        answer: |
           Post-process results is the final step.
       - question: What are some processing that could be performed in post-processing results?
-        answer: >-
+        answer: |
           Classical data-processing steps such as visualizing results, readout error mitigation
           techniques, marginalizing quasi-probability distributions to ascertain results on smaller sets of qubits,
           or post-selection on inherent properties of the problem, such as total spin, parity, or particle conservation
@@ -143,13 +143,13 @@ seed_examples:
       noise-free quantum computations managed by distributed software tools working in tandem with classical resources.
     questions_and_answers:
       - question: What is the goal of the Flamingo quantum system?
-        answer: >-
+        answer: |
           The goal is to scale quantum systems significantly while maintaining performance and error rates.
       - question: What will be the characteristics of the Starling quantum system?
-        answer: >-  
+        answer: |  
           The Starling system will be a modular, error-corrected quantum supercomputer capable of running 100 million gates.
       - question: What are some potential applications for the Blue Jay quantum supercomputer?
-        answer: >-
+        answer: |
           Blue Jay could potentially unlock general applications in areas like security, machine learning, and materials
           discovery.
         
@@ -200,14 +200,14 @@ seed_examples:
       
     questions_and_answers: 
       - question: What is the role of middleware in quantum computers?
-        answer: >-
+        answer: |
           Middleware is vital for distributing tasks across quantum and classical systems, ensuring efficient resource
           utilization.
       - question: What has IBM done to accelerate quantum application development?
-        answer: >-  
+        answer: |  
           IBM has integrated the Qiskit platform with Generative AI tools and AI-powered tools like Code Assistant.
       - question: What is IBM doing to abstract the complexities of quantum circuits?
-        answer: >-
+        answer: |
           IBM's approach includes the development of higher-level APIs and domain-specific libraries within Qiskit
           to abstract the complexities of quantum circuits.
         
