@@ -190,6 +190,8 @@ seed_examples:
         answer: |
           IBM's approach includes the development of higher-level APIs and domain-specific libraries within Qiskit
           to abstract the complexities of quantum circuits.
+document_outline: |
+ Information about IBM's quantum computer patterns and roadmap.
 document:
   repo: 'https://github.com/ermahendraswain/qiskit_knowledge/blob/main/qiskit_roadmap_pattern_knowledge_latest.md'
   commit: a9e1cd41b33858339b5bd76a9c17d3db4e0da4b2
